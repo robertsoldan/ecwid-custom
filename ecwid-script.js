@@ -1,4 +1,3 @@
-
 // Initialize extra fields
 ec.order = ec.order || {};
 ec.order.extraFields = ec.order.extraFields || {};
@@ -45,3 +44,4 @@ ec.order.extraFields.my_custom_field = {
 
 Ecwid.refreshConfig();
 
+console.log("asdcacascas");
