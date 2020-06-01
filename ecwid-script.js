@@ -8,7 +8,7 @@ ec.order.extraFields.ecwid_pickup_time = {
     'title': '_msg_ShippingDetails.pickup.customer_header',
     'required': true,
     'type': 'datetime',
-    'checkoutDisplaySection': 'pickup_details',
+    'checkoutDisplaySection': 'shipping_address',
     'orderDetailsDisplaySection': 'order_comments',
 }
 
