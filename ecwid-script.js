@@ -9,7 +9,7 @@ ec.order.extraFields.wrapping_box_signature = {
     'type': 'text',
     'tip': 'We will put a label on a box so the recipient knows who it is from',
     'required': false,
-    'checkoutDisplaySection': 'local_delivery'
+    'checkoutDisplaySection': 'order_comments'
 };
 
 Ecwid.refreshConfig();
