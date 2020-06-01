@@ -11,7 +11,9 @@ ec.order.extraFields.ecwid_delivery_time = {
     'required': false,
     'type': 'datetime',
     'checkoutDisplaySection': 'shipping_address',
-    'orderDetailsDisplaySection': 'order_comments'
+    'orderDetailsDisplaySection': 'order_comments',
 }
+
+console.log("sda");
 
 Ecwid.refreshConfig();
