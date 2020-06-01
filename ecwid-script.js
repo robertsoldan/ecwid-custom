@@ -1,3 +1,5 @@
+ Ecwid.OnPageLoad.add(function(page) {
+
 // Initialize extra fields
 ec.order = ec.order || {};
 ec.order.extraFields = ec.order.extraFields || {};
@@ -11,4 +13,8 @@ ec.order.extraFields.ecwid_pickup_time = {
     'orderDetailsDisplaySection': 'payment_details',
 }
 
-Ecwid.refreshConfig();
+});
+
+
+//Ecwid.refreshConfig();
+
