@@ -1,3 +1,5 @@
+let ec = window.ec;
+
 // Initialize extra fields
 ec.order = ec.order || {};
 ec.order.extraFields = ec.order.extraFields || {};
