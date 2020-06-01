@@ -4,9 +4,9 @@ ec.order.extraFields = ec.order.extraFields || {};
 
 
 // Add pickup time selection for customer
-ec.order.extraFields.ecwid_pickup_time = {
-    'title': '_msg_ShippingDetails.pickup.customer_header',
-    'required': true,
+ec.order.extraFields.ecwid_delivery_time = {
+    'title': 'What time should we deliver the package?',
+    'required': false,
     'type': 'datetime',
     'checkoutDisplaySection': 'shipping_address',
     'orderDetailsDisplaySection': 'order_comments',
