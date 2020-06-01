@@ -1,4 +1,4 @@
-/*
+
 // Initialize extra fields
 ec.order = ec.order || {};
 ec.order.extraFields = ec.order.extraFields || {};
@@ -33,7 +33,7 @@ ec.order.extraFields.ecwid_pickup_time = {
     'required': true,
     'type': 'datetime',
     'checkoutDisplaySection': 'pickup_details',
-    'orderDetailsDisplaySection': 'payment_details',
+    'orderDetailsDisplaySection': 'order_comments',
 }
 
 Ecwid.refreshConfig();
@@ -44,13 +44,4 @@ ec.order.extraFields.my_custom_field = {
 };
 
 Ecwid.refreshConfig();
-*/
-
-window.ec = window.ec || Object();
-window.ec.config = window.ec.config || Object();
-window.ec.config.navigation_scrolling = "CUSTOM";
-
-window.ec.config.custom_scroller = function() {
-  window.scrollTo(500, 0);
-};
 
