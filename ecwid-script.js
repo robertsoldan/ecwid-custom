@@ -1,3 +1,5 @@
+console.log("sda");
+
 let ec = window.ec;
 
 // Initialize extra fields
@@ -14,6 +16,6 @@ ec.order.extraFields.ecwid_delivery_time = {
     'orderDetailsDisplaySection': 'order_comments',
 }
 
-console.log("sda");
+
 
 Ecwid.refreshConfig();
